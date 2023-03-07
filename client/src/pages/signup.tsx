@@ -1,6 +1,6 @@
 import { FormEvent, useRef } from "react";
-import { Button } from "../components/Button";
-import { Input } from "../components/Input";
+import { Button } from "../components/button";
+import { Input } from "../components/input";
 import { useAuth } from "../context/AuthContext";
 
 export function Signup() {

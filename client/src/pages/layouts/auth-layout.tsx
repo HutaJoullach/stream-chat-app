@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
-import { FullScreenCard } from "../../components/FullScreenCard";
+import { FullScreenCard } from "../../components/full-screen-card";
 import { Link } from "../../components/Link";
 
 export function AuthLayout() {
