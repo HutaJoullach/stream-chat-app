@@ -1,9 +1,9 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
 import { AuthProvider } from "./context/auth-context";
 // import { NewChannel } from "./pages/channel/new";
-// import { Home } from "./pages/Home";
+import { Home } from "./pages/home";
 import { AuthLayout } from "./pages/layouts/auth-layout";
-// import { RootLayout } from "./pages/layouts/RootLayout";
+import { RootLayout } from "./pages/layouts/root-layout";
 import { Login } from "./pages/login";
 import { Signup } from "./pages/signup";
 
