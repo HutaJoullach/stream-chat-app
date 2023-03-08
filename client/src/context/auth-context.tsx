@@ -13,7 +13,7 @@ import {
 } from "react";
 import { useNavigate } from "react-router-dom";
 import { StreamChat } from "stream-chat";
-import { useLocalStorage } from "../hooks/useLocalStorage";
+import { useLocalStorage } from "../hooks/use-local-storage";
 
 type AuthContext = {
   user?: User;
