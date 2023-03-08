@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom";
 import { FullScreenCard } from "../../components/full-screen-card";
-import { Link } from "../../components/Link";
+import { Link } from "../../components/link";
 
 export function AuthLayout() {
   const location = useLocation();
