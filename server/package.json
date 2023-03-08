@@ -12,7 +12,8 @@
   "dependencies": {
     "@fastify/cors": "^8.2.0",
     "dotenv": "^16.0.3",
-    "fastify": "^4.14.1"
+    "fastify": "^4.14.1",
+    "stream-chat": "^8.4.1"
   },
   "devDependencies": {
     "@types/node": "^18.14.6",

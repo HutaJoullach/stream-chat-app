@@ -1,7 +1,7 @@
 import { FormEvent, useRef } from "react";
 import { Button } from "../components/button";
 import { Input } from "../components/input";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/auth-context";
 
 export function Signup() {
   const { signup } = useAuth();

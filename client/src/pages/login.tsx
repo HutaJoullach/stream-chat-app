@@ -1,8 +1,8 @@
 import { FormEvent, useRef } from "react";
 import { Navigate } from "react-router-dom";
-import { Button } from "../components/Button";
-import { Input } from "../components/Input";
-import { useAuth } from "../context/AuthContext";
+import { Button } from "../components/button";
+import { Input } from "../components/input";
+import { useAuth } from "../context/auth-context";
 
 export function Login() {
   const { login, user } = useAuth();
